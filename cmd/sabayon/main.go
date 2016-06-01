@@ -73,7 +73,7 @@ func main() {
 			}
 
 			// Wait for a few seconds so the app can restart
-			time.Sleep(20 * time.Second)
+			time.Sleep(40 * time.Second)
 
 			ce.ComChan <- "validate"
 		case r := <-ce.CertChan:
